@@ -1,0 +1,397 @@
+/* Header */
+header {
+    background: url('PICS/hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(227, 213, 213);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 6rem;
+    font-weight: normal;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+/* General Body and Layout */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #8c1515;
+}
+
+.navbar a {
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 0.5rem 1.5rem;
+}
+
+/* Header Section */
+header {
+    background-color: #fff;
+    color: #f3f3f3;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 8rem;
+    margin-top: 20px;
+}
+
+/* Mission Section */
+section h2, .card-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+section p, .card-text {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.btn-danger {
+    background-color: #8c1515;
+    border-color: #8c1515;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #b22222;
+}
+
+/* General Body and Layout */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Campus News Section */
+.card {
+    .card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px black;
+        margin-bottom: 20px;
+    }
+    
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .card-body {
+        padding: 1.5rem;
+    }
+    
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .card-text {
+        font-size: 1rem;
+        color: #555;
+    }
+    
+    /* Adjust image height for larger cards */
+    .col-md-6 .card-img-top {
+        height: 300px;
+    }
+    
+    .row {
+        margin: 0;
+    }
+    
+    @media (max-width: 768px) {
+        .card-img-top {
+            height: 180px;
+        }
+        .col-md-6 .card-img-top {
+            height: 250px;
+        }
+    }
+    
+/* Academic Section */
+.card-img-top {
+    height: 250px;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Layout Adjustments */
+.row {
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+    section h2 {
+        font-size: 2rem;
+    }
+
+    section p {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav { text-align: center; }
+    .navbar-nav .nav-item { margin-bottom: 10px; }
+    .card-img-top { height: 180px; }
+    .form-control { width: 100%; }
+}
+
+@media (max-width: 576px) {
+    header h1 { font-size: 3rem; }
+    section h2 { font-size: 2rem; }
+    .btn-danger { font-size: 1rem; padding: 0.5rem 1.5rem; }
+}
+
+/* Seven Schools Section */
+#seven-schools {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#seven-schools h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* School Names with Separator */
+#seven-schools .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.school-item {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #248dd3;
+    margin: 0 0px; /* Space between the schools */
+}
+
+/* Add line separator between the items */
+
+
+.school-item:hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.btn-primary:hover {
+    background-color: #c9302c;
+    border-color: #c9302c;
+}
+/* Quote Section Background */
+#quote-section {
+     background-image: url('PICS/quote.webp'); 
+     background-size: cover; /* Ensures the image covers the entire section */
+     background-position: center; /* Centers the image */
+     background-attachment: fixed; /* Makes the background fixed while scrolling (optional) */
+     color: white; /* Adjusts text color to ensure readability */
+     padding: 80px 20px; /* Adds some padding for better spacing */
+    }
+    
+    #quote-section .quote-text {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    #quote-section .quote-author {
+        font-size: 1.2rem;
+        font-style: italic;
+        margin-bottom: 30px;
+    }
+    
+    #quote-section .btn-danger {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+    /* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, h5 {
+    color: #8c1515; /* Stanford Cardinal Red */
+    font-weight: bold;
+}
+
+p {
+    color: #555;
+    font-size: 1rem;
+}
+
+img {
+    border-radius: 8px;
+}
+
+/* Section Styling */
+section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.btn-danger {
+    background-color: #8c1515;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #b22222;
+}
+
+/* Card Layouts */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .btn-danger {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
